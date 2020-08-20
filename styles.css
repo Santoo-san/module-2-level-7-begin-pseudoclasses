@@ -1,0 +1,40 @@
+
+.link1:hover {
+    color:rgb(100, 200, 247);
+    font-style: italic;
+}
+.link2:active {
+    color:red;
+    font-weight:bold
+}
+.link3:visited {
+    color:yellow;
+}
+.focustext:focus {
+    color:green;
+    font-size:20px;
+}
+
+.menu {
+    display:flex;
+    justify-content: flex-start;
+    padding:0;
+    margin:0;
+    background-color:blue
+     
+}
+li {
+    display:block;
+    padding: 5px;
+    margin-right:10px;
+    border:solid;
+}
+li:hover {
+    background-color:lightblue
+}
+.currentpage {
+    background-color: rgb(172, 172, 248);
+}
+input:focus {
+    background-color: aqua;
+}
